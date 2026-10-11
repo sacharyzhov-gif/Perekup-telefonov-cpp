@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+    <application android:label="Перекуп телефонов" android:theme="@android:style/Theme.Material.NoActionBar" android:hasCode="false" android:allowBackup="false">
+        <activity android:name="android.app.NativeActivity" android:label="Перекуп телефонов" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait" android:exported="true">
+            <meta-data android:name="android.app.lib_name" android:value="perekup" />
+            <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+        </activity>
+    </application>
+</manifest>
